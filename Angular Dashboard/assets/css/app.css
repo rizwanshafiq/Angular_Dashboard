@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box;
+	font-family: "Bodoni MT";
+}
+body{
+	margin:0;
+}
+#charts{
+margin-top: 100px;
+}
+#ng-view{
+	margin-top: 150px;
+}
+#container{
+	height: 100%;
+	overflow: auto;
+}
