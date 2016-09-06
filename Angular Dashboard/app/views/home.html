@@ -1,21 +1,69 @@
 <div ng-controller="lineChartController">
     <div id="charts">
-        <div class="col-sm-4">
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Line Chart</h3>
             <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick"></canvas>
         </div>
     </div>
 </div>
 <div ng-controller="barChartController">
     <div id="charts">
-        <div class="col-sm-4">
-            <canvas id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels"> chart-series="series"</canvas>
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Bar Chart</h3>
+            <canvas id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels" chart-series="series"></canvas>
         </div>
     </div>
 </div>
 <div ng-controller="doughnutChartController">
     <div id="charts">
-        <div class="col-sm-4">
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Doughnut Chart</h3>
             <canvas id="doughnut" class="chart chart-doughnut" chart-data="data" chart-labels="labels"></canvas>
+        </div>
+    </div>
+</div>
+<div ng-controller="radarChartController">
+    <div id="charts">
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Radar Chart</h3>
+            <canvas id="radar" class="chart chart-radar" chart-data="data" chart-options="options" chart-labels="labels">
+            </canvas>
+        </div>
+    </div>
+</div>
+<div ng-controller="pieChartController">
+    <div id="charts">
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Pie Chart</h3>
+            <canvas id="pie" class="chart chart-pie" chart-data="data" chart-labels="labels" chart-options="options">
+            </canvas>
+        </div>
+    </div>
+</div>
+<div ng-controller="polarChartController">
+    <div id="charts">
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Polar Chart</h3>
+            <canvas id="polar-area" class="chart chart-polar-area" chart-data="data" chart-labels="labels" chart-options="options">
+            </canvas>
+        </div>
+    </div>
+</div>
+<div ng-controller="bubbleChartController">
+    <div id="charts">
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Bubble Chart</h3>
+            <canvas id="base" class="chart-bubble" chart-data="data" chart-series="series">
+            </canvas>
+        </div>
+    </div>
+</div>
+<div ng-controller="mixedChartController">
+    <div id="charts">
+        <div class="col-sm-4 charts">
+            <h3 class="chart_label">Mixed Chart</h3>
+            <canvas id="base" class="chart-bar" chart-data="data" chart-labels="labels" chart-colors="colors" chart-dataset-override="datasetOverride">
+            </canvas>
         </div>
     </div>
 </div>

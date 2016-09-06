@@ -1,0 +1,15 @@
+<div id="profileContainer">
+	<div id="profileImage">
+		<img ng-src="{{user.picture.large}}">
+	</div>
+	<div id="profileInfo">
+	<span>Hello, I am a {{user.gender | titlecase}} and my name is {{user.name.title+" "+user.name.first+" "+user.name.last | titlecase}}</span>
+		<!-- <span class="block">Gender: {{user.gender | titlecase}}</span>
+		<span class="block">Name: {{user.name.first+" "+user.name.last | titlecase}}</span> -->
+
+	</div>
+	<div ng-show="error">
+		<h1>ERROR</h1>
+	</div>
+
+</div>

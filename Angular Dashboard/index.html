@@ -3,31 +3,41 @@
 
 <head>
     <title>Dashboard</title>
-    <script src="assets/js/angular-1.5.0/angular.min.js"></script>
-    <script src="assets/js/angular-1.5.0/angular-route.js"></script>
-    <script src="assets/js/jquery-3/jquery-3.1.0.min.js"></script>
-    <script src="assets/js/bootstrap-3/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.0/Chart.js"></script>
-    <script src=http://cdn.rawgit.com/jtblin/angular-chart.js/master/dist/angular-chart.js></script>
-    <script src="app/app.js"></script>
-    <script src="app/controllers/home.js"></script>
-    <script src="app/controllers/lineChartController.js"></script>
-    <script src="app/controllers/barChartController.js"></script>
-    <script src="app/controllers/doughnutChartController.js"></script>
-    <script src="app/services/randomNumberService.js"></script>
-    <script src="app/directives/header.js"></script>
-    <script src="app/directives/footer.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-3/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/header.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/userProfile.css">
+    <script src="assets/js/angular-1.5.0/angular.min.js"></script>
+    <script src="assets/js/angular-1.5.0/angular-route.js"></script>
+    <script src="assets/js/jquery-3/jquery-3.1.0.min.js"></script>
+    <script src="assets/js/bootstrap-3/bootstrap.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.0/Chart.js"></script> -->
+    <script src="assets/js/angular-charts.js/chart.js"></script>
+    <script src=http://cdn.rawgit.com/jtblin/angular-chart.js/master/dist/angular-chart.js></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/home.js"></script>
+    <script src="app/controllers/profileController.js"></script>
+    <script src="app/controllers/lineChartController.js"></script>
+    <script src="app/controllers/barChartController.js"></script>
+    <script src="app/controllers/doughnutChartController.js"></script>
+    <script src="app/controllers/radarChartController.js"></script>
+    <script src="app/controllers/pieChartController.js"></script>
+    <script src="app/controllers/polarChartController.js"></script>
+    <script src="app/controllers/bubbleChartController.js"></script>
+    <script src="app/controllers/mixedChartController.js"></script>
+    <script src="app/services/randomNumberService.js"></script>
+    <script src="app/services/randomUserService.js"></script>
+    <script src="app/filters/titlecase.js"></script>
+    <script src="app/directives/header.js"></script>
+    <script src="app/directives/footer.js"></script>
 </head>
 
 <body>
     <div id="container">
         <div header id="header"></div>
         <div ng-view id="ng-view"></div>
-        <div footer id="footer"></div>
+        <!-- <div footer id="footer"></div> -->
     </div>
 </body>
 
