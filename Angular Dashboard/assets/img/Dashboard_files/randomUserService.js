@@ -2,6 +2,7 @@ angular.module('dashboardApp')
     .factory('randomUserService', function($http, $q, $log) {
         var num, min, max, col, base, format, md, myData;
         var numbersArray = [];
+
         return {
             getUser: function() {
                 var defer = $q.defer();

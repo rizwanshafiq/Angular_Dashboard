@@ -16,13 +16,12 @@ body {
 }
 
 #ng-view {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #container {
-    height: 100vh;
+    height: 100%;
     overflow: auto;
-    background: #F5F5F5;
 }
 
 .chart_label {
