@@ -1,0 +1,36 @@
+#userProfileContainer {
+    margin: auto;
+    width: 70%;
+}
+
+.block {
+    display: block;
+}
+
+#profile-header {
+    background: #87CEEB;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-bottom: 30px;
+}
+
+.profileImage {
+    float: left;
+    box-shadow: 0px 0px 5px;
+}
+
+#profileInfo {
+    width: 60%;
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
